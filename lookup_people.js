@@ -26,5 +26,6 @@ const myArg = process.argv[2]
       console.log(`- ${i+1}: ${row.first_name} ${row.last_name}, born '${row.birthdate.toLocaleDateString('ar-EG',{year:'numeric',month: '2-digit',day:'2-digit'})}'`)
     })
     client.end();
+    
   });
 });
